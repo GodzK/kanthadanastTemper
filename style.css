@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #333333;
+    background: #9dfcf1;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -10,20 +10,21 @@ body{
     overflow: hidden;
 }
 h1{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
-    color: white;
+    color: rgb(199, 203, 246);
     margin: 30px;
+    background-color: #4c6376;
 }
 .container{
-    width: 400px;
+    width: 700px;
     height: 600px;
     display: flex;
     flex-direction: column;
 }
 label{
-    color: white;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
     margin-bottom: 20px;
 }
 input{
@@ -31,8 +32,8 @@ input{
     padding: 15px 20px;
     background: none;
     outline: none;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
