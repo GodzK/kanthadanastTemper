@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 body{
-    background: #9dfcf1;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzRreHF0dXFoeG9nNDN3MHB6aHBmNWFwbmRscGdoYWNoYjluNzU3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -12,9 +14,9 @@ body{
 h1{
     font-size: 60px;
     font-weight: bold;
-    color: rgb(199, 203, 246);
+    color: rgb(255, 255, 255);
     margin: 30px;
-    background-color: #4c6376;
+    background-color: #838383;
 }
 .container{
     width: 700px;
@@ -23,7 +25,7 @@ h1{
     flex-direction: column;
 }
 label{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -32,8 +34,8 @@ input{
     padding: 15px 20px;
     background: none;
     outline: none;
-    border: 1px solid rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     margin-bottom: 60px;
 }
